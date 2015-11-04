@@ -1,0 +1,214 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+ body {
+    background-color:white;
+    font-size:0.9em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#container {
+	width: 90%;
+	margin: 10px auto;
+	border: 2px solid black;
+	border-radius: 22px;
+}
+
+header {
+	background-color: goldenrod;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	text-align: center;
+}
+
+nav {
+	padding: 0.5em;
+	background-color: goldenrod;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+nav a {
+	padding: 0.25em;
+	color: #5c4033;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+	background-color: darkslategray;
+}
+/* Left Column Styles */
+#features {
+	width: 20%;
+	float: left;
+	background-color: darkslategray;
+	color: white;
+}
+
+#features h3, #extensions h2 {
+	margin-bottom: 1.5em;
+	color: white;
+	background-color: darkslategray;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#features p {
+	padding: 0 1% 1% 5%;
+}
+
+/* Center Column Styles */
+#main {
+	padding: 0.5%;
+	margin: 0 20% 0 20%;
+}
+
+#main h1{
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#features p, #main p {
+	margin-bottom: 1em;
+	text-indent: 2em;
+}
+
+/* Right Column Styles */
+#extensions {
+	width: 20%;
+	color: white;
+	background-color: darkslategray;
+	float: right;
+}
+/* 
+#extensions ul {
+	padding: 1em;
+	list-style-type: square;
+	list-style-position: inside;
+} */
+#extensions ol {
+	padding: 1em;
+	list-style-position: inside;
+}
+/* 
+#extensions ul li {
+	margin-bottom: 1em;
+} */
+
+footer {
+	margin-top: 1em;
+	padding: 1em 0;
+	border-top: solid 2px black;
+	clear: both;
+	font-weight: bold;
+	text-align: center;
+}
+
+figure {
+	text-align: center;
+}
+
+/* form styles */ 
+
+
+form {
+	margin-top: 1em;
+	border: solid 2px #305704;
+	padding: 1em;
+	font-size: 16px;
+}
+
+#formcontainer {
+	width: 47%;
+	float: right;
+}
+
+.labelfloatleft label {
+	width: 100px;
+	margin-right: 15px;
+	color: black;
+	float: left;
+	text-align: right;
+}
+
+.labelfloatleft input {
+	display: block;
+}
+
+fieldset {
+	margin-bottom: 1em;
+	border: solid 2px #305704;
+	background-color: goldenrod;
+	display: block;
+}
+
+legend {
+	color: black;
+	padding: 0 10px;
+}
+
+label {
+	color: black;
+}
+
+input.text {
+	background-color: #f0eea4;
+}
+
+fieldset.group {
+	float: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	border: solid 2px #305704;
+	display: block;
+}
+
+select {
+	display: block;
+}
+
+input.button {
+	color: #305704;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 4px;
+	background-color: #f0eea4;
+	border: 1px solid #305704;
+	display: inline;
+}
+
+/* unordered list */
+
+ul.bugs {
+   	line-height: 1.4em;
+   	list-style-type: none;
+   	padding: 0;
+   	margin-left: 1em;
+   }
+
+  ul.bugs li{
+  	background: url(images/firebug-tiny.png) 0.3em no-repeat;
+   	line-height: 2.5em;
+   	padding-left: 40px;
+}
+
+/* table */
+	table {
+		border: solid 4px goldenrod;
+	}
+	
+	th, td {
+		border: solid 2px orange;
+	}
